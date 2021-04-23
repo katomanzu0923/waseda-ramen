@@ -9,6 +9,12 @@
 <script>
 export default {
   name: 'HelloWorld',
+  data(){
+    return{
+      isPop:false,
+      tab:0
+    }
+  },
   props: {
     msg: String
   }
